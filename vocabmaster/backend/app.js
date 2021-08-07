@@ -45,8 +45,9 @@ const UserSchema = new Schema({
 
 const UserModel = mongoose.model('UserModel', UserSchema);
 
-const mongoURI = "mongodb+srv://shreyas:chechu2000@cluster0.alx6d.mongodb.net/vocabulary?retryWrites=true&w=majority"
-const jwtKey = "myjwtsecret"
+// fill in the mongoDB URI and jwtKey to proceed
+const mongoURI = ""
+const jwtKey = ""
 
 const auth = (req, res, next) => {
     try{
